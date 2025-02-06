@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fef0e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background-color: #ff80b5;
+    color: white;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ff3399;
+}
+
+#yes-btn {
+    margin-bottom: 40px; /* Increased space between Yes and No */
+}
+
+#no-btn {
+    margin-top: 40px; /* Increased space below No button */
+}
