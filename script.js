@@ -55,7 +55,7 @@ let gifList = [
 
 // When "Yes" button is clicked
 yesBtn.addEventListener("click", function() {
-  message.innerHTML = "Yayy.. Can't wait to take you out, my babyy✌️❤️";
+  message.innerHTML = "Yayy.. Promise I won't let go you so easily again🥺❤️";
   yesBtn.style.display = "none";
   noBtn.style.display = "none";
 
