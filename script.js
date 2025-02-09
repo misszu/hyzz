@@ -12,8 +12,8 @@ let noTexts = [
     "Are you sure?",
     "What if I asked really nicely?",
     "Pookie please:(",
-    "Please baby I miss you so much",
-    "Comeback to me na po",
+    "With chocolate mochi on top?",
+    "What about a plushiee?",
     "PLEASE POOKIEE",
     "But:(",
     "Ivan will die:<",
@@ -28,7 +28,10 @@ let noTexts = [
     "Don't click this, or your phone will get a virus.",
     "I can't believe you'd make me beg",
     "hyzz",
-    "You ruined Ivan's life"
+    "You ruined Ivan's life",
+    "Just click the fvcking Yes",
+    "HHYZZZZ",
+    ":(("
 ];
 
 let gifList = [
@@ -55,7 +58,7 @@ let gifList = [
 
 // When "Yes" button is clicked
 yesBtn.addEventListener("click", function() {
-  message.innerHTML = "Yayy.. Promise I won't let go you so easily again🥺❤️";
+  message.innerHTML = "Yayy.. Can't wait to take you out honey✌️✌️";
   yesBtn.style.display = "none";
   noBtn.style.display = "none";
 
