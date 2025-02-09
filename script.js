@@ -30,7 +30,7 @@ let noTexts = [
     "hyzz",
     "You ruined Ivan's life",
     "Just click the fvcking Yes",
-    "HHYZZZZ",
+    "Pretty please, just click 'Yes'! You won’t regret it",
     ":(("
 ];
 
@@ -84,7 +84,7 @@ noBtn.addEventListener("click", function() {
 
     // Make "Yes" button bigger (grows faster each time)
     let currentSize = parseFloat(window.getComputedStyle(yesBtn).fontSize);
-    yesBtn.style.fontSize = (currentSize + 6) + "px"; // Increased growth rate
+    yesBtn.style.fontSize = (currentSize + 15) + "px"; // Increased growth rate
     yesBtn.style.padding = "15px 30px"; // Adjust button padding to scale with size
   }
 
